@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="476.0" prefWidth="393.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.groupproject.AdminSignInController">
+   <children>
+      <Label layoutX="176.0" layoutY="42.0" text="Healthcare Feedback System" textFill="#3a98a2">
+         <font>
+            <Font name="ArnoPro-Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="260.0" layoutY="102.0" text="Sign in as Admin" />
+      <Label layoutX="100.0" layoutY="147.0" text="Email" />
+      <TextField fx:id="email" layoutX="100.0" layoutY="165.0" prefHeight="26.0" prefWidth="406.0" />
+      <Label layoutX="100.0" layoutY="203.0" text="Password" />
+      <PasswordField fx:id="password" layoutX="100.0" layoutY="221.0" prefHeight="26.0" prefWidth="406.0" />
+      <Label layoutX="412.0" layoutY="257.0" text="Forget Password?" />
+      <Button layoutX="266.0" layoutY="291.0" mnemonicParsing="false" onAction="#buttonForLogin" prefHeight="28.0" prefWidth="76.0" style="-fx-background-color: #3A98A2;" text="Login" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label layoutX="252.0" layoutY="354.0" text="Don't have an account?">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Button layoutX="258.0" layoutY="400.0" mnemonicParsing="false" onAction="#buttonForAdminSignUp" style="-fx-background-color: #3A98A2;" text="Sign Up as Admin" textFill="WHITE">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Label fx:id="LoginINFO" layoutX="36.0" layoutY="445.0" />
+      <ImageView fitHeight="476.0" fitWidth="630.0" layoutX="-22.0" opacity="0.22" pickOnBounds="true">
+         <image>
+            <Image url="@img4.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <GaussianBlur />
+         </effect>
+      </ImageView>
+   </children>
+</AnchorPane>

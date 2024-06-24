@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="310.0" prefWidth="458.0" style="-fx-background-color: #3a98a2;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.groupproject.Survey">
+    <children>
+        <Label layoutX="93.0" layoutY="36.0" text="Create your survey" textFill="WHITE">
+         <font>
+            <Font name="ArnoPro-Bold" size="36.0" />
+         </font></Label>
+        <Button layoutX="174.0" layoutY="257.0" mnemonicParsing="false" text="View your Survey" />
+        <Button layoutX="163.0" layoutY="220.0" mnemonicParsing="false" onAction="#CreateSurvey" text="Develop a new survey" />
+        <Label fx:id="userINFO" layoutX="244.0" layoutY="314.0" />
+      <ImageView fitHeight="128.0" fitWidth="189.0" layoutX="154.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@survey.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

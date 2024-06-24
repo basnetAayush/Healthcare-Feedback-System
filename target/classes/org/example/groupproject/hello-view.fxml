@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="463.0" prefWidth="497.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.groupproject.HelloController">
+   <children>
+      <ImageView fitHeight="263.0" fitWidth="499.0" pickOnBounds="true">
+         <image>
+            <Image url="@img1.jpeg" />
+         </image></ImageView>
+      <Label fx:id="userINFO" alignment="TOP_CENTER" text="Welcome to Healthcare Feedback System" textFill="#3a98a2">
+         <VBox.margin>
+            <Insets left="65.0" top="15.0" />
+         </VBox.margin>
+         <font>
+            <Font name="ArnoPro-Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#buttonForAdminSignIn" style="-fx-background-color: #3A98A2;" text="Sign In as Admin" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <VBox.margin>
+            <Insets bottom="15.0" left="190.0" top="10.0" />
+         </VBox.margin></Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#buttonForCreatorSignIn" prefHeight="26.0" prefWidth="160.0" style="-fx-background-color: #3A98A2;" text="Sign In as Survey Creator" textAlignment="CENTER" textFill="WHITE">
+         <VBox.margin>
+            <Insets bottom="15.0" left="165.0" />
+         </VBox.margin></Button>
+      <Button mnemonicParsing="false" onAction="#buttonForUserSignIn" style="-fx-background-color: #3A98A2;" text="Sign In as User(Patient)" textFill="WHITE">
+         <VBox.margin>
+            <Insets left="175.0" />
+         </VBox.margin></Button>
+   </children>
+</VBox>

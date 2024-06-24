@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="504.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.groupproject.SurveyCreatorSignUpController">
+    <children>
+        <Label layoutX="113.0" layoutY="33.0" text="HEALTHCARE FEEDBACK SYSTEM" textFill="#3a98a2">
+            <font>
+                <Font name="ArnoPro-Bold" size="24.0" />
+            </font></Label>
+        <Label layoutX="39.0" layoutY="116.0" text="First Name" />
+        <TextField fx:id="surveyCreatorFName" layoutX="39.0" layoutY="134.0" prefHeight="26.0" prefWidth="246.0" />
+        <Label layoutX="39.0" layoutY="172.0" text="Last Name" />
+        <TextField fx:id="surveyCreatorLName" layoutX="39.0" layoutY="190.0" prefHeight="26.0" prefWidth="246.0" />
+        <Label layoutX="335.0" layoutY="112.0" text="Email" />
+        <TextField fx:id="surveyCreatorEmail" layoutX="335.0" layoutY="130.0" prefHeight="26.0" prefWidth="246.0" />
+        <Label layoutX="42.0" layoutY="299.0" text="Username" />
+        <Label layoutX="458.0" layoutY="234.0" text="Gender" />
+        <ChoiceBox fx:id="SCreatorGender" layoutX="458.0" layoutY="253.0" prefHeight="26.0" prefWidth="120.0" />
+        <TextField fx:id="surveyCreatorPhoneNumber" layoutX="39.0" layoutY="252.0" prefHeight="26.0" prefWidth="240.0" />
+        <Label layoutX="40.0" layoutY="234.0" text="Phone number" />
+        <TextField fx:id="surveyCreatorDepartment" layoutX="337.0" layoutY="252.0" prefHeight="26.0" prefWidth="109.0" />
+        <Label layoutX="338.0" layoutY="234.0" text="Department" />
+        <TextField fx:id="surveyCreatorUsername" layoutX="42.0" layoutY="317.0" prefHeight="26.0" prefWidth="240.0" />
+        <Label layoutX="339.0" layoutY="167.0" text="Password" />
+        <PasswordField fx:id="surveyCreatorPassword" layoutX="338.0" layoutY="185.0" prefHeight="26.0" prefWidth="240.0" />
+        <Label layoutX="337.0" layoutY="290.0" text="Confirm Password" />
+        <PasswordField fx:id="surveyCreatorConfirmPassword" layoutX="337.0" layoutY="308.0" prefHeight="26.0" prefWidth="240.0" />
+        <Button layoutX="269.0" layoutY="410.0" mnemonicParsing="false" onAction="#buttonForSurveyCreatorSignIn" style="-fx-background-color: #3a98a2;" text="Register" textFill="WHITE" />
+        <Label fx:id="userINFO" />
+      <Label layoutX="243.0" layoutY="78.0" text="Registration Details" textFill="#3a98a2">
+         <font>
+            <Font name="ArnoPro-Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView blendMode="MULTIPLY" fitHeight="504.0" fitWidth="754.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 180;">
+         <image>
+            <Image url="@13313271_v870-tang-36.jpg" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
